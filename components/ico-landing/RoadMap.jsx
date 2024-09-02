@@ -83,10 +83,10 @@ const RoadMap = () => {
             </TabList>
             {/* End Tablist  */}
 
-            <div className="tab-content pl-4 md:mt-16 md:w-2/4">
+            <div className="tab-content pl-8 md:mt-16 md:w-2/4">
               {roadMapContent.map((item) => (
                 <TabPanel key={item.id}>
-                  <p className="text-lg text-white ">{item.text}</p>
+                  <p className="text-sm text-white md:text-lg ">{item.text}</p>
                 </TabPanel>
               ))}
             </div>
