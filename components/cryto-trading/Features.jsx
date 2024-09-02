@@ -4,42 +4,80 @@ const Features = () => {
       id: 1,
       icon: (
         <>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            className="h-6 w-6 fill-accent"
-          >
-            <path fill="none" d="M0 0h24v24H0z" />
-            <path d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4zm-1 8V7H4v6h2zm2-6v6h3v-2h2v2h3V7H8zm10 6h2V7h-2v6zM9 3v2h6V3H9z" />
-          </svg>
-        </>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          className="h-6 w-6 fill-white"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 10v4h2v-4H7zm4-6v10h2V7h-2zm4 3v7h2v-7h-2z" />
+        </svg>
+      </>
       ),
-      title: "Verify your identity",
-      text: `Complete the identity verification process to secure your account and transactions.`,
+      title: "50% (500 million BLVT)",
+      text: `Mining Rewards (distributed over 10+ years).`,
     },
     {
       id: 2,
       icon: (
         <>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            className="h-6 w-6 fill-accent"
-          >
-            <path fill="none" d="M0 0h24v24H0z" />
-            <path d="M14.256 21.744L12 24l-2.256-2.256C5.31 20.72 2 16.744 2 12 2 6.48 6.48 2 12 2s10 4.48 10 10c0 4.744-3.31 8.72-7.744 9.744zm-8.233-6.328C7.491 17.606 9.695 19 12.16 19c2.464 0 4.669-1.393 6.136-3.584A8.968 8.968 0 0 0 12.16 13a8.968 8.968 0 0 0-6.137 2.416zM12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-          </svg>
-        </>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          className="h-6 w-6 fill-white"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 10v4h2v-4H7zm4-6v10h2V7h-2zm4 3v7h2v-7h-2z" />
+        </svg>
+      </>
       ),
-      title: "Fund your account",
-      text: `Add funds to your crypto account to start trading crypto. You can add funds with a variety of payment methods.`,
+      title: "20% (200 million BLVT)",
+      text: `Development Fund (with a 10-year vesting schedule)`,
     },
     {
       id: 3,
+      icon: (
+        <>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          className="h-6 w-6 fill-white"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 10v4h2v-4H7zm4-6v10h2V7h-2zm4 3v7h2v-7h-2z" />
+        </svg>
+      </>
+      ),
+      title: "15% (150 million BLVT)",
+      text: `Community & Ecosystem (staking, governance, incentives)`,
+    },
+    {
+      id: 4,
+      icon: (
+        <>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          className="h-6 w-6 fill-white"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 10v4h2v-4H7zm4-6v10h2V7h-2zm4 3v7h2v-7h-2z" />
+        </svg>
+      </>
+      ),
+      title: "10% (100 million BLVT)",
+      text: `Team & Advisors (4-year vesting, 1-year cliff)`,
+    },
+    {
+      id: 5,
       icon: (
         <>
           <svg
@@ -47,27 +85,27 @@ const Features = () => {
             viewBox="0 0 24 24"
             width="24"
             height="24"
-            className="h-6 w-6 fill-accent"
+            className="h-6 w-6 fill-white"
           >
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4 10v4h2v-4H7zm4-6v10h2V7h-2zm4 3v7h2v-7h-2z" />
           </svg>
         </>
       ),
-      title: "Start trading",
-      text: `Complete the identity verification process to secure your account and transactions.`,
+      title: "5% (50 million BLVT)",
+      text: `Strategic Partnerships & Marketing`,
     },
   ];
 
   return (
     <>
       {/* <!-- Features --> */}
-      <section className="relative pt-24 pb-10 dark:bg-jacarta-800">
+      <section className="relative pt-24 pb-10 dark:bg-black">
         <div className="container">
           <div className="lg:flex lg:flex-nowrap">
             <div className="mb-16 lg:w-1/2 lg:pr-20">
               <img
-                src="/images/crypto-trading/crypto_trading_feature.jpg"
+                src="/images/crypto-app/3d_elements_crypto_app.png"
                 alt="cryto portfolio"
                 loading="lazy"
                 className="rounded-2.5xl"
@@ -76,17 +114,17 @@ const Features = () => {
             {/* <!-- End Left Image --> */}
 
             {/* <!-- Info --> */}
-            <div className="mb-16 lg:w-1/2 lg:pl-5">
-              <h2 className="mb-6 font-display text-3xl text-jacarta-700 dark:text-white">
-                Create your cryptocurrency portfolio today
+            <div className="mb-16 lg:w-2/3 lg:pl-5">
+              <h2 className="mb-6 font-display text-3xl text-jacarta-700 dark:text-gold">
+                Tokenomics
               </h2>
-              <p className="mb-12 text-lg leading-normal dark:text-jacarta-300">
-                Start your first trade with these easy steps.
+              <p className=" mb-12 text-lg leading-normal dark:text-jacarta-300">
+                Distribution
               </p>
 
               {featuresContent.map((item) => (
                 <div className="mb-6 flex space-x-6" key={item.id}>
-                  <div className="inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white shadow-2xl dark:bg-jacarta-700">
+                  <div className="inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white shadow-2xl dark:bg-gold">
                     {item.icon}
                   </div>
                   <div>
@@ -101,9 +139,9 @@ const Features = () => {
               <div className="mt-10">
                 <a
                   href="#"
-                  className="inline-block rounded-full bg-accent py-3 px-8 text-center font-semibold text-white shadow-accent-volume transition-all hover:bg-accent-dark"
+                  className="inline-block rounded-full bg-gold py-3 px-8 text-center font-semibold text-white  transition-all hover:bg-green"
                 >
-                  Get Started
+                  Released TBA
                 </a>
               </div>
               {/* End btn text */}

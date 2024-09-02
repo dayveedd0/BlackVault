@@ -30,7 +30,7 @@ const hero_12 = () => {
               A cutting-edge cryptocurrency platform focused on privacy-centric mining operations.
             </h1>
             <div className="flex space-x-4">
-              <Link href="/collection/explore_collection">
+              <Link href="#">
                 <a className="rounded-full bg-green py-3 px-8 text-center font-semibold text-white  transition-all hover:bg-gold">
                   Get Started
                 </a>

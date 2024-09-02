@@ -6,6 +6,7 @@ import ProSaleBanner from "../../components/ico-landing/ProSaleBanner";
 import CallToActions from "../../components/ico-landing/CallToActions";
 import Testimonial2 from "../../components/testimonial/Testimonial2";
 import RoadMap from "../../components/ico-landing/RoadMap";
+import Features from "../../components/cryto-trading/Features";
 import Team from "../../components/ico-landing/Team";
 import Faq from "../../components/ico-landing/faq";
 import Benifits from "../../components/ico-landing/Benifits";
@@ -26,6 +27,7 @@ const Home_12 = () => {
       <Benifits />
       {/* <Team /> */}
       <RoadMap />
+      <Features />
       {/* <Testimonial2 /> */}
       {/* <CallToActions /> */}
     </>
