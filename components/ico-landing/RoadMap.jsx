@@ -70,8 +70,8 @@ const RoadMap = () => {
                   <button
                     className={
                       itemsTabs === item.id
-                        ? "active nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 hover:text-white"
-                        : "nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 hover:text-white"
+                        ? "active nav-link nav-link--style-3 relative flex items-center  text-jacarta-300 hover:text-white"
+                        : "nav-link nav-link--style-3 relative flex items-center  text-jacarta-300 hover:text-white"
                     }
                   >
                     <span className="px-2 font-display text-lg font-medium md:text-2xl">
@@ -83,10 +83,10 @@ const RoadMap = () => {
             </TabList>
             {/* End Tablist  */}
 
-            <div className="tab-content w-full pl-4 md:mt-16 md:w-2/4">
+            <div className="tab-content pl-4 md:mt-16 md:w-2/4">
               {roadMapContent.map((item) => (
                 <TabPanel key={item.id}>
-                  <p className="text-lg text-white">{item.text}</p>
+                  <p className="text-lg text-white ">{item.text}</p>
                 </TabPanel>
               ))}
             </div>
