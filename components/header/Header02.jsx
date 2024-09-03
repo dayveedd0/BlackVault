@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { socialIcons } from "../../data/footer_data";
+import { FaMediumM } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import DarkMode from "../mode/DarkMode";
 import Logo from "./../../public/images/logo.png";
 import WhiteLogo from "./../../public/logo.png";
@@ -145,7 +147,16 @@ export default function Header02() {
             {/* End menu for desktop */}
 
             <div className="ml-8 hidden items-center lg:flex xl:ml-12">
-            <div className="flex space-x-12">
+            <div className="flex space-x-6">
+                <Link href="https://medium.com/@blackvaultcoin/">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group cursor-pointer"
+                  >
+                  <FaMediumM className="text-lg text-jacarta-300 dark:text-green dark:hover:text-gold" />
+                  </a>
+                </Link>
                 {socialIcons.map((item) => {
                   const { id, href, text } = item;
                   return (
@@ -162,6 +173,15 @@ export default function Header02() {
                     </Link>
                   );
                 })}
+                <Link href="https://t.me/BlackVaultCoin">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group cursor-pointer"
+                  >
+                  <FaTelegramPlane className="text-lg text-jacarta-300 dark:text-green dark:hover:text-gold" />
+                  </a>
+                </Link>
               </div>
 
             </div>
@@ -172,6 +192,15 @@ export default function Header02() {
           <div className="ml-auto flex lg:hidden">
             
           <div className="flex space-x-2">
+                <Link href="https://medium.com/@blackvaultcoin/">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group cursor-pointer"
+                    >
+                      <FaMediumM className="text-lg text-jacarta-300 dark:text-green dark:hover:text-gold" />
+                    </a>
+                </Link>
                 {socialIcons.map((item) => {
                   const { id, href, text } = item;
                   return (
@@ -181,13 +210,22 @@ export default function Header02() {
                         rel="noopener noreferrer"
                         className="group cursor-pointer"
                       >
-                        <svg className="icon group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white">
+                        <svg className="icon group-hover:fill-accent fill-green h-5 w-5 dark:group-hover:fill-green">
                           <use xlinkHref={`/icons.svg#icon-${text}`}></use>
                         </svg>
                       </a>
                     </Link>
                   );
                 })}
+                <Link href="https://t.me/BlackVaultCoin">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group cursor-pointer"
+                  >
+                    <FaTelegramPlane className="text-lg text-jacarta-300 dark:text-green dark:hover:text-gold" />
+                  </a>
+                </Link>
             </div>
           </div>
           {/* End header right content user  for mobile */}

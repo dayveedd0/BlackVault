@@ -57,7 +57,7 @@ const footer = () => {
                         rel="noopener noreferrer"
                         className="group cursor-pointer"
                       >
-                        <svg className="icon group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white">
+                        <svg className="icon group-hover:fill-accent fill-white h-5 w-5 dark:group-hover:fill-white">
                           <use xlinkHref={`/icons.svg#icon-${text}`}></use>
                         </svg>
                       </a>
