@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { socialIcons } from "../data/footer_data";
+import { FaMediumM } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const footer = () => {
   return (
@@ -35,7 +37,17 @@ const footer = () => {
               </p>
 
               {/* <!-- Socials --> */}
-              <div className="flex space-x-12">
+              <div className="flex space-x-6">
+                <Link href="https://medium.com/@blackvaultcoin/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group cursor-pointer"
+                >
+                <FaMediumM className="text-lg text-jacarta-300 dark:text-white" />
+                </a>
+                </Link>
+
                 {socialIcons.map((item) => {
                   const { id, href, text } = item;
                   return (
@@ -52,6 +64,15 @@ const footer = () => {
                     </Link>
                   );
                 })}
+                <Link href="https://t.me/BlackVaultCoin">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group cursor-pointer"
+                >
+                <FaTelegramPlane className="text-lg text-jacarta-300 dark:text-white" />
+                </a>
+                </Link>
               </div>
             </div>
 

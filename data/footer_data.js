@@ -98,21 +98,21 @@ const footerMenuList = [
 ];
 
 const socialIcons = [
-  {
-    id: 1,
-    href: "https://t.me/BlackVaultCoin",
-    text: "telegram",
-  },
+  // {
+  //   id: 1,
+  //   href: "https://t.me/BlackVaultCoin",
+  //   text: "telegram",
+  // },
   {
     id: 1,
     href: "https://x.com/Blackvaultcoin",
     text: "twitter",
   },
-  {
-    id: 3,
-    href: "https://medium.com/@blackvaultcoin/",
-    text: "book",
-  },
+  // {
+  //   id: 3,
+  //   href: "https://medium.com/@blackvaultcoin/",
+  //   text: "book",
+  // },
   // {
   //   id: 4,
   //   href: "https://www.instagram.com",
