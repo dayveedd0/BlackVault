@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       <Meta title="BLack Vault" />
 
       <Provider store={store}>
-        <ThemeProvider enableSystem={false} defaultTheme="dark" attribute="class">
+        <ThemeProvider enableSystem={false} defaultTheme="dark" forcedTheme="dark" attribute="class">
           <MetaMaskProvider>
             <UserContext.Provider value={{ scrollRef: scrollRef }}>
               {pid === "/login" ? (
