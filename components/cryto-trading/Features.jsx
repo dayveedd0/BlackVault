@@ -138,7 +138,7 @@ const Features = () => {
 
               <div className="mt-10">
                 <a
-                  href="#"
+                  href="https://dexscreener.com"
                   className="inline-block rounded-full bg-gold py-3 px-8 text-center font-semibold text-white  transition-all hover:bg-green"
                 >
                   Released TBA
