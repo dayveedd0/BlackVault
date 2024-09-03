@@ -98,21 +98,21 @@ const footerMenuList = [
 ];
 
 const socialIcons = [
-  // {
-  //   id: 1,
-  //   href: "https://www.facebook.com",
-  //   text: "facebook",
-  // },
   {
     id: 1,
-    href: "https://x.com/Blackvaultcoin?t=9JiLYHhoe2immiIs6rc6fw&s=35",
+    href: "https://t.me/BlackVaultCoin",
+    text: "telegram",
+  },
+  {
+    id: 1,
+    href: "https://x.com/Blackvaultcoin",
     text: "twitter",
   },
-  // {
-  //   id: 3,
-  //   href: "https://www.discord.com",
-  //   text: "discord",
-  // },
+  {
+    id: 3,
+    href: "https://medium.com/@blackvaultcoin/",
+    text: "book",
+  },
   // {
   //   id: 4,
   //   href: "https://www.instagram.com",

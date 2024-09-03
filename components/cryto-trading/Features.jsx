@@ -17,7 +17,7 @@ const Features = () => {
       </>
       ),
       title: "50% (500 million BLVT)",
-      text: `Mining Rewards (distributed over 10+ years).`,
+      text: `Mining Rewards (distributed over 2+ years).`,
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ const Features = () => {
       </>
       ),
       title: "20% (200 million BLVT)",
-      text: `Development Fund (with a 10-year vesting schedule)`,
+      text: `Development Fund (with a 2-year vesting schedule)`,
     },
     {
       id: 3,
